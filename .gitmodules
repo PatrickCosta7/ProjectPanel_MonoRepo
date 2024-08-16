@@ -1,0 +1,6 @@
+[submodule "project_panel_API"]
+	path = project_panel_API
+	url = https://github.com/PatrickCosta7/project_panel_API.git
+[submodule "project-panel"]
+	path = project-panel
+	url = https://github.com/PatrickCosta7/project-panel.git
