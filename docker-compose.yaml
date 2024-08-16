@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  frontend:
+    build: ./project_panel_API
+    container_name: project_panel_API
+    ports:
+      - '3000:3000'
+  backend:
+    build: ./project-panel
+    container_name: project-panel
+    ports:
+      - '8001:8001'
+    stdin_open: true
+    tty: true
