@@ -3,7 +3,6 @@ Site de anotações de filmes e séries
 
 ## Pré-requisitos:
     - Node.js 18+ - https://nodejs.org/en/download/package-manager
-    - nodemon - https://nodemon.io/
 
 ## Baixando o projeto:
     - Este repositório contém dois submódulos contendo o Front-end e Back-end do projeto, para baixar o projeto completo utilize o comando abaixo 
