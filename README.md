@@ -9,8 +9,9 @@ Site de anotações de filmes e séries
     - git clone --recurse-submodules https://github.com/PatrickCosta7/ProjectPanel_MonoRepo.git 
 
 ## Subindo o projeto com Docker:
-    - Certifique-se que você tenha em sua máquina o Docker desktop ou somente o deamon instalado: https://docs.docker.com/engine/install/
-    - `$ docker compose up` -> Cria as imagens e os containers contendo a aplicação completa
+    - Certifique que você tenha em sua máquina o Docker engine instalado: https://docs.docker.com/engine/install/
+    - Abra a pasta do projeto pelo terminal
+    - Digite o comando `$ docker compose up` -> Cria as imagens e os containers contendo a aplicação completa
     - Acesse o projeto via `http://localhost:3000`
 
 ## Subindo o projeto localmente:
