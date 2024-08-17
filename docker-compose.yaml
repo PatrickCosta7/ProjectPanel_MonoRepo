@@ -1,13 +1,17 @@
 version: "3.8"
 services:
   frontend:
-    build: ./project_panel_API
-    container_name: project_panel_API
+    build: 
+      context: ./project-panel
+      dockerfile: Dockerfile
+    container_name: project-panel
     ports:
       - '3000:3000'
   backend:
-    build: ./project-panel
-    container_name: project-panel
+    build:
+      context: ./project_panel_API
+      dockerfile: Dockerfile
+    container_name: project_panel_API
     ports:
       - '8001:8001'
     stdin_open: true
