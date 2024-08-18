@@ -2,25 +2,38 @@
 Site de anotações de filmes e séries
 
 ## Baixando o projeto:
-    - Este repositório contém dois submódulos contendo o Front-end e Back-end do projeto, para baixar o projeto completo utilize o comando abaixo 
-    - git clone --recurse-submodules https://github.com/PatrickCosta7/ProjectPanel_MonoRepo.git 
+Este repositório contém dois submódulos contendo o Front-end e Back-end do projeto, para baixar o projeto completo utilize o comando:
+
+    git clone --recurse-submodules https://github.com/PatrickCosta7/ProjectPanel_MonoRepo.git 
 
 ## Subindo o projeto com Docker:
-    - Certifique que você tenha em sua máquina o Docker engine instalado e rodando: https://docs.docker.com/engine/install/
-    - Abra a pasta do projeto pelo terminal
-    - Digite o comando `$ docker compose up` -> Cria as imagens e os containers contendo a aplicação completa
-    - Acesse o projeto via navegador com o link `http://localhost:3000`
+
+Certifique que você tenha em sua máquina o Docker engine instalado e rodando: [Baixar Docker Engine](https://docs.docker.com/engine/install/)
+
+Baixe o projeto, acesse sua pasta pelo terminal e digite o comando:
+
+    Docker compose up
+
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o projeto.
 
 ## Subindo o projeto localmente:
-    - É necessário ter Node.js instalado, versão 18 ou superior - https://nodejs.org/en/download/package-manager
-    - Através do terminal, digite os comandos abaixo:
 
-    - `$ cd project_panel_API/` -> acessa a pasta da API
-    - `$ npm install` -> Instala todas as dependências do projeto
-    - `$ nodemon app.js` -> Comando para rodar o projeto`em: `http://localhost:8001/`
+Será necessário ter Node.js (versão 18 ou superior) instalado em sua máquina: [Baixar Node.js](https://nodejs.org/en/download/package-manager)
 
-    - Com a API funcionando, digite:
-    - `$ cd ../project-panel/` -> Acessa a pasta do front
-    - `$ npm install` -> Instala todas as dependências do projeto
-    - `$ npm start` -> Inicia o projeto
-    - Acesse link `http://localhost:3000`
+Através do terminal, digite os comandos abaixo:
+
+    cd project_panel_API/ -> acessa a pasta da API
+
+    npm install -> Instala todas as dependências do projeto
+
+    node app.js -> Comando para rodar o projeto`em: `http://localhost:8001/`
+
+Com a API funcionando, digite:
+
+    cd ../project-panel/` -> Acessa a pasta do Front-end
+
+    npm install` -> Instala todas as dependências do projeto
+
+    npm start` -> Inicia o projeto
+
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o projeto.
