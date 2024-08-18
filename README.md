@@ -30,10 +30,10 @@ Através do terminal, digite os comandos abaixo:
 
 Com a API funcionando, digite:
 
-    cd ../project-panel/` -> Acessa a pasta do Front-end
+    cd ../project-panel/ -> Acessa a pasta do Front-end
 
-    npm install` -> Instala todas as dependências do projeto
+    npm install -> Instala todas as dependências do projeto
 
-    npm start` -> Inicia o projeto
+    npm start -> Inicia o projeto
 
 Abra [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o projeto.
